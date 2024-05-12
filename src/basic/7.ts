@@ -2,11 +2,11 @@ type Gen = {
   title: string;
   likes: number;
   accounts: string[];
+  status: "close" | "open";
   details?: {
     createAt: Date;
     updateAt: Date;
   };
-  status?: string;
 };
 
 const page1: Gen = {
